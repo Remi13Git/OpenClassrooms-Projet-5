@@ -1,0 +1,30 @@
+*{
+  font-family: 'Montserrat';
+}
+.header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav-list {
+  display: flex;
+  list-style: none;
+}
+.header__nav-item {
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+}
+a:hover {
+  text-decoration: underline;
+}
+

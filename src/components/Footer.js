@@ -1,0 +1,13 @@
+import React from 'react';
+import '../styles/footer.scss';
+
+const Footer = () => {
+  return (
+    <footer className='footer'>
+        <img className='logo' src='logo-white.png' alt='logo'></img>
+        <p className='copyright'>© 2020 Kasa. All rights reserved</p>
+    </footer>
+  );
+};
+
+export default Footer;

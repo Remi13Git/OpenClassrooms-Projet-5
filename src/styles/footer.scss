@@ -6,14 +6,16 @@
     background-color: black;
     color: #fff;
     padding: 20px;
+    .footer__logo {
+        width: 120px;
+        margin: auto;
+    }
+    .footer__copyright {
+        text-align: center;
+        font-weight: 500;
+        font-size: 24px;
+    }
 }
-.logo {
-    width: 120px;
-    margin: auto;
-}
-.copyright {
-    text-align: center;
-    font-weight: 500;
-    font-size: 24px;
-}
+
+
   

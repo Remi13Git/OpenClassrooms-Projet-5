@@ -1,0 +1,9 @@
+.collapse__icon {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .collapse__icon.collapsed {
+    transform: rotate(-180deg);
+  }
+  

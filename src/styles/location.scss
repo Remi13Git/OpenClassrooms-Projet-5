@@ -1,0 +1,116 @@
+.carrousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 0px auto 20px;
+    .carrousel__image {
+        border-radius: 25px;
+        height: 415px;
+        object-fit: cover;
+    }
+    .active {
+        display: flex;
+    }
+    .inactive {
+        display: none;
+    }
+    .chevron__container {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 50px;
+        position: relative;
+        bottom: 230px;
+        padding:0px 20px;
+        cursor: pointer;
+        height: 1px;
+    }
+    .image__counter {
+        text-align: center;
+        margin: 0;
+        position: relative;
+        bottom: 50px;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        height: 1px;
+    }
+}
+
+
+.data {
+    width: 90%;
+    margin: auto;
+    .data__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .title-location-tags__container {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            .title {
+                color: #FF6060;
+                font-size: 36px;
+                font-weight: 500;
+            }
+            .location {
+                font-size: 18px;
+                font-weight: 500;
+            }
+            .tags {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                margin-top: 15px;
+            }
+        } 
+        .host-rating__container {
+            display: flex;
+            flex-direction: column;
+            .host__container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 10px;
+                .name {
+                    color: #FF6060;
+                    text-align: right;
+                    width: 50%;
+                }
+                .picture {
+                    height: 64px;
+                    width: 64px;
+                    border-radius: 50%;
+                }
+            }
+            .rating__container {
+                display: flex;
+                flex-direction: row;
+                i {
+                    font-size: 32px;
+                }
+                .activ {
+                    color: #FF6060;
+                }
+                .inactiv{
+                    color: #E3E3E3;
+                }
+            }
+        }
+    }
+    .dropdown__container {
+        display: flex;
+        flex-direction: row;
+        gap: 76px;
+    }
+}
+
+.loader {
+    font-size: 50px;
+    color: #FF6060;
+    height: 55vh;
+    margin: auto;
+    align-content: center;
+}

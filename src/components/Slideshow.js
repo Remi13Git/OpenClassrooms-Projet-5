@@ -13,14 +13,16 @@ const Slideshow = ({ locationData }) => {
 
   return (
     <div className='carrousel'>
-      {locationData.pictures.map((picture, index) => (
-        <img
-          key={index}
-          className={`carrousel__image ${index === activeIndex ? 'active' : 'inactive'}`}
-          src={picture}
-          alt={`Présentation ${index + 1}`}
-        />
-      ))}
+      <div className='carrousel__container'>
+        {locationData.pictures.map((picture, index) => (
+          <img
+            key={index}
+            className={`carrousel__image ${index === activeIndex ? 'active' : 'inactive'}`}
+            src={picture}
+            alt={`Présentation ${index + 1}`}
+          />
+        ))}
+      </div>
       {locationData.pictures.length > 1 && (
         <div className='chevron__container'>
           <i className='fa-solid fa-chevron-left' onClick={handlePreviousClick}></i>

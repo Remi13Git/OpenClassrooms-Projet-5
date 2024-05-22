@@ -16,6 +16,16 @@
         font-size: 24px;
     }
 }
-
+@media (max-width: 600px) {
+    .footer .footer__logo {
+        max-width: 100px;
+        width: 35%;
+    }
+    .footer .footer__copyright {
+        font-size: 17px;
+        max-width: 50%;
+        margin: auto;
+    }
+  }
 
   

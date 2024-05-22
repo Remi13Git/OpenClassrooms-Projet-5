@@ -4,6 +4,7 @@
     border-radius: 10px;
     margin: auto;
     background: black;
+    transition: transform 0.3s ease;
     .card__title {
         color: white;
         font-size: 18px;
@@ -18,5 +19,13 @@
         height: 100%;
         border-radius: 10px;
         opacity: 0.7;
+    }
+}
+.card__container:hover {
+    transform: scale(1.02); 
+}
+@media (max-width: 600px) {
+    .card__container {
+        width: auto;
     }
 }

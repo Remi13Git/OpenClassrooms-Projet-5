@@ -4,7 +4,6 @@
     margin: 20px auto;
     background-color: black;
     border-radius: 25px;
-    box-shadow: 0px 4px 4px 0px #00000040;
     .banner__img {
         object-fit: cover;
         width: 100%;
@@ -19,5 +18,27 @@
         bottom: 140px;
         font-size: 48px;
         font-weight: 700;
+        padding: 0 20px;
+        white-space: pre-wrap;
+    }
+}
+@media (max-width: 600px) {
+    .banner {
+        height: 110px;
+        border-radius: 10px;
+    }
+    .banner .banner__img {
+        border-radius: 10px;
+    }
+    .banner .banner__text {
+        font-size: 26px;
+        padding: 0 5px 0 10px;
+        bottom: 75px
+    }
+}
+@media (max-width: 435px) {
+    .banner .banner__text {
+        bottom: 85px;
+        justify-content: left;
     }
 }

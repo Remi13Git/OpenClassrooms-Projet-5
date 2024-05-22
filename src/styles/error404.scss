@@ -29,5 +29,15 @@
     }
     
 }
-
-
+@media (max-width: 600px) {
+    .container {
+        min-height: 60vh;
+    }
+    .container .container__h1 {
+        font-size: 150px;
+    }
+    .container .container__p {
+        font-size: 27px;
+        max-width: 90%;
+    }
+}

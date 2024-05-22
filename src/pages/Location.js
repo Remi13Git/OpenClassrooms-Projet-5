@@ -78,9 +78,9 @@ const Location = () => {
               </div>
           </div>
         </div>
-        <div className='dropdown__container'>
-          <Dropdown title={'Description'} text={locationData.description}/>
-          <Dropdown title={'Équipements'} text={
+        <div className='dropdown__components'>
+          <Dropdown title={'Description'} style={{ width: '100%', margin: '10px 0' }} text={locationData.description}/>
+          <Dropdown title={'Équipements'} style={{ width: '100%', margin: '10px 0' }} text={
           <ul>
               {locationData.equipments.map((equipment, index) => (
                 <li key={index}>{equipment}</li>

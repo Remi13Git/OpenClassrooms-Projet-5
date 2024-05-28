@@ -31,7 +31,7 @@ const Home = () => {
         alt='fôret' 
         opacity={0.4} 
         shadow={'0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922)'} 
-        text={width < 435 ? 'Chez vous,\n partout et ailleurs' : 'Chez vous, partout et ailleurs'} 
+        text={width < 435 ? 'Chez vous,\npartout et ailleurs' : 'Chez vous, partout et ailleurs'} 
       />
       <div className='gallery'>
         {galleryData.map(item => (

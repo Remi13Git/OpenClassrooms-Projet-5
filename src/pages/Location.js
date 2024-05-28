@@ -23,10 +23,7 @@ const Location = () => {
       } catch (error) {
         console.error('Error fetching gallery data:', error);
       } finally {
-        // Mettre isLoading à false après 2 secondes
-        setTimeout(() => {
           setIsLoading(false);
-        }, 1000);
       }
     };
 

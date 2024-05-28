@@ -27,6 +27,7 @@
         overflow: hidden;
         ul {
           padding: 0;
+          margin: 0;
           li {
             list-style: none;
             text-align: left;
@@ -36,7 +37,7 @@
     .dropdown__toggle.collapsed {
         display: flex;
         height: fit-content;
-        padding: 10px 20px;
+        padding: 15px 20px;
         animation: slideDown 0.5s ease;
         text-align: left;
         line-height: 1.5;

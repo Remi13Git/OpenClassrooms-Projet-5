@@ -2,13 +2,14 @@ import React from 'react';
 import Banner from '../components/Banner';
 import Dropdown from '../components/Dropdown';
 import useWindowWidth from '../hooks/useWindowWidth';
+import '../styles/about.scss';
 
 const About = () => {
   const width = useWindowWidth();
   const dropdownStyle = { width: width < 600 ? '90%' : '70%' };
 
   return (
-    <div>
+    <div className='about__container'>
       <Banner src='image-src-2.png' alt='montagne' opacity={0.7} shadow={'none'} />
       <Dropdown title={'Fiabilité'} style={dropdownStyle} text={'Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes.'}/>
       <Dropdown title={'Respect'} style={dropdownStyle} text={'La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.'}/>

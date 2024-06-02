@@ -5,6 +5,7 @@
     text-align: center;
     gap: 50px;
     margin: 0px auto 100px;
+    min-height: 75vh;
     .container__h1 {
         font-size: 288px;
         font-weight: 700;
@@ -30,9 +31,6 @@
     
 }
 @media (max-width: 600px) {
-    .container {
-        min-height: 60vh;
-    }
     .container .container__h1 {
         font-size: 150px;
     }
